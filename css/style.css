@@ -74,7 +74,7 @@ header .navbar-nav li:hover a
 .news-header h2{
     line-height: 3rem;
     letter-spacing: -1px;
-    
+
 }
 
 .news-header h2 a{
@@ -109,7 +109,7 @@ header .navbar-nav li:hover a
 }
 
 .news-item-description p ~ p{
-   display: none; 
+    display: none; 
 }
 
 .news-item-description p{
@@ -128,7 +128,7 @@ header .navbar-nav li:hover a
     position: relative;
     text-decoration: none;
     transition: 0.5s linear;
-    
+
 }
 
 .news .news-item .read-more:after{
@@ -150,13 +150,13 @@ header .navbar-nav li:hover a
 .news-nav a{
     text-decoration: none;
     color: #4d4d4d;
-    font-size: 22px;
+    font-size: 16px;
     font-family: 'Arial-BoldMT';
 }
 
 .news-nav > span{
     color: #4d4d4d;
-    font-size: 22px;
+    font-size: 16px;
     padding: 0 15px;
     display: inline-block;
 }
@@ -166,3 +166,49 @@ header .navbar-nav li:hover a
     text-shadow:0 0 1.5px #000;
 }
 
+.social a{
+    color: #000;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.search-form .form-control{
+    border-radius: 0;
+    background: #f7f7f7;
+}
+
+.top-articles .top-article-item img{
+    border: 5px solid #333;
+
+
+
+}
+
+.top-articles .top-article-item .w-75 a{
+    text-decoration: none;
+    line-height: 1.5rem;
+    max-height: 3rem;
+    overflow: hidden;
+    padding-left: 5px;
+    display: block;
+}
+
+.recent-comm span.w-75{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recent-comm p{
+    font-size: 12px;
+    border-top: 1px solid #ccc;
+}
+.recent-comm p:last-of-type{
+    border-bottom: 1px solid #ccc;
+}
+
+.recent-comm a{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
